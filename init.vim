@@ -18,6 +18,7 @@ set mouse=a
 noremap ,t :NERDTreeToggle<CR>
 noremap ,h :Files<CR>
 noremap ,rg :RG<CR>
+nmap <F3> :e $HOME/.config/nvim<CR>
 let NERDTreeMinimalUI = 1
 let NERDTreeShowHidden=1
 
